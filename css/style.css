@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+header {
+  background: url(../img/header.png) no-repeat center top / cover;
+}
+.text-blue {
+  color: #60e5d7;
+}
+.navbar-toggler {
+	border: none;
+}
+header p {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: 0.35px;
+  margin-top: 48px;
+}
+header span {
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+}
+header ul a {
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+}
+header ul a:hover {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #393e6b!important;
+  border-radius: 17.5px;
+  background-color: #ffffff;
+}
+header hr {
+  background-color: #4ca6af;
+  max-width: 576px;
+  width: 100%;
+}
+header h1 {
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 1.24;
+  letter-spacing: 0.85px;
+}
+header a {
+  font-size: 16px;
+  line-height: 2.63;
+  letter-spacing: 0.4px;
+}
+header .btn {
+  border-radius: 27.5px;
+  background-color: #0facbb;
+  padding-right: 37px;
+  padding-left: 37px;
+  margin-bottom: 174px;
+}
+header .social {
+  margin-top: 78px;
+}
+
+.cooperation {
+  background-color: #ffffff;
+}
+.cooperation h2 {
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 1.24;
+  letter-spacing: 0.85px;
+  color: #393e6b;
+  margin-top: 110px;
+  margin-bottom: 88px;
+}
+.cooperation span {
+  opacity: 0.8;
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  color: rgba(6, 149, 144, 0.2);
+}
+.cooperation p {
+  font-size: 14px;
+  letter-spacing: 0.35px;
+  color: #393e6b;
+  margin-top: 38px;
+}
+.cooperation .sec-row {
+	margin-bottom: 118px;
+}
+
+.clients {
+  background-color: #f5f5fa;
+}
+.clients h2 {
+  font-size: 28px;
+  line-height: 1.5;
+  letter-spacing: 1.4px;
+  color: rgba(57, 62, 107, 0.35);
+  margin-top: 95px;
+}
+.clients .carousel-inner {
+	margin-top: 54px;
+	padding-bottom: 86px;
+}
+.carousel-control-prev {
+  width:14px;
+  height:25px;
+}
+.carousel-control-next {
+  width:14px;
+  height:25px;
+}
+.carousel-control-prev-icon {
+  background-image: url(../img/arrow_prev.png);
+  width:12px;
+  height:23px;
+}
+.carousel-control-next-icon {
+  background-image: url(../img/arrow_next.png);
+  width:12px;
+  height:23px;
+}
+
+.registration {
+  background-image: linear-gradient(78deg, #0f8d8e, #14c3d4);
+}
+.registration h2 {
+  font-size: 36px;
+  line-height: 0.83;
+  letter-spacing: 0.9px;
+}
+form a:hover {
+	text-decoration: none;
+}
+form .btn {
+  border-radius: 20px;
+  background-color: #393e6b;
+}
+form input {
+  border-radius: 2rem!important;
+}
+.form-check-input {
+  width: 20px;
+  height: 20px;
+  margin-left: -2rem;
+  background-color: #ffffff;
+}
+.inp-url {
+  width: 588px;
+  height: 41px;
+}
+.inp-all {
+  height: 41px;
+}
+
+footer {
+  background-color: #242637;
+}
+footer p {
+  color: #7b7fa8;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.35px;
+}
+footer span {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.35px;
+}
+
+
+@media (min-width: 576px) {
+	header hr {
+		display: none;
+	}
+	.inp-url {
+	  width: 360px;
+	}
+}
+@media (min-width: 767.98px) {
+	header h1 {
+		margin-top: 48px;
+	}
+	.cooperation .sec-row {
+		margin-top: 85px;
+	}
+	.small-carousel {
+	display: none;
+	}
+	.inp-url {
+	  width: 500px;
+	}
+}
+@media (min-width: 991.98px) { 
+	header h1 {
+  		margin-top: 194px;
+	}
+	.inp-url {
+	  width: 500px;
+	}
+}
+@media (min-width: 1200px) { 
+	.middle-carousel {
+		display: none;
+	}
+	.small-carousel {
+		display: none;
+	}
+	.inp-url {
+	  width: 588px;
+	}
+}
+@media (max-width: 497.98px) { 
+	header .social {
+      margin-left: 0px!important;
+	}
+	.inp-url {
+	  width: 260px!important;
+	}
+}
+@media (max-width: 575.98px) { 
+	header .line {
+	  display: none;
+	}
+	header h1 {
+	  margin-top: 48px;
+	}
+	header p, header span {
+	  font-size: 24px;
+	  margin-top: 0px;
+	}
+	header .social {
+      margin-top: 20px;
+      margin-left: 6%;
+	}
+	.inp-url {
+	  width: 380px;
+	}
+}
+@media (max-width: 767.98px) { 
+	header h1 {
+	  margin-top: 48px;
+	}
+	.cooperation h2 {
+		margin-bottom: 50px;
+	}
+	.cooperation .sec-row {
+		margin-bottom: 40px;
+	}
+	.cooperation .first-row, .sec-row {
+		margin-left: 5%;
+	}
+	.middle-carousel {
+		display: none;
+	}
+	.inp-url {
+	  width: 362px;
+	}
+	header .btn {
+		margin-bottom: 60px;
+	}
+	.cooperation h2 {
+	    margin-top: 60px;
+	}
+}
+@media (max-width: 991.98px) { 
+	header a {
+	  font-size: 28px!important;
+	}
+	.large-carousel {
+		display: none;
+	}
+}
+@media (max-width: 1199.98px) { 
+	.large-carousel {
+		display: none;
+	}
+}
